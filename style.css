@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f4f4;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  height: 500px;
+  width: 300px;
+  background-color: white;
+}
+.inpt {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  border: 2px solid#ddd;
+  text-align: right;
+  font-size: 1.5rem;
+  color: black;
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin-bottom: 20px;
+  background-color: #f0f0f0
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn {background-color: #f9f9f9;
+  color: black;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.btn:hover{
+    background-color: #ddd;
+    transition: background-color 0.2s ease-in-out;
+}
+.btn.dot {
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.zero {
+  width: 40%;
+  border-radius: 10%;
+  font-size: 20px;
+}
+.btn i{
+  color: orangered;
+}
+.btn.ac{
+  color: orangered;
+}
+.btn.percent{
+  color: orangered;
+}
